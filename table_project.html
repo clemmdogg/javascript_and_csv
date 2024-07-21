@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table of Procyclists</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="table_project.css">
+    </head>
+    <body>
+        <h1>Table of Procyclists</h1>
+        <div class="container">
+            <input type="file" id="file_inp">
+            <button class="btn" id="upload">Upload</button>
+        </div>
+        <div class="container">
+            <button class="btn" id="cofidis">Cofidis</button>
+            <button class="btn" id="contries_w_caps">Contries with caps</button>
+        </div>
+        <table id="csvtable"></table>
+        <script type="text/javascript" src="./table_project_make_class.js"></script>
+    </body>
+</html>
